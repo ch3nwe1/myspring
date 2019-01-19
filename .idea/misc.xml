@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/hellojava/pom.xml" />
         <option value="$PROJECT_DIR$/mywebservice/pom.xml" />
+        <option value="$PROJECT_DIR$/myactiviti/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithmic/pom.xml" />
+        <option value="$PROJECT_DIR$/myactivemq/pom.xml" />
       </list>
     </option>
   </component>
