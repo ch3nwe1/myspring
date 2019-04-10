@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/hellojava/hellojava.iml" filepath="$PROJECT_DIR$/hellojava/hellojava.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld.iml" filepath="$PROJECT_DIR$/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/myactivemq/myactivemq.iml" filepath="$PROJECT_DIR$/myactivemq/myactivemq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myactiviti/myactiviti.iml" filepath="$PROJECT_DIR$/myactiviti/myactiviti.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywebservice/mywebservice.iml" filepath="$PROJECT_DIR$/mywebservice/mywebservice.iml" />
     </modules>
   </component>
