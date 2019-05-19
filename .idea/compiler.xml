@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="algorithmic" />
+        <module name="designpartterns" />
         <module name="hellojava" />
+        <module name="mathworld" />
         <module name="myactivemq" />
+        <module name="myactiviti" />
         <module name="mywebservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithmic" target="1.5" />
+      <module name="designpartterns" target="1.5" />
       <module name="hellojava" target="1.5" />
+      <module name="mathworld" target="1.5" />
       <module name="myactivemq" target="1.5" />
       <module name="myactiviti" target="1.5" />
       <module name="mywebservice" target="1.5" />

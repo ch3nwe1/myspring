@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/myactiviti/pom.xml" />
         <option value="$PROJECT_DIR$/algorithmic/pom.xml" />
         <option value="$PROJECT_DIR$/myactivemq/pom.xml" />
+        <option value="$PROJECT_DIR$/mathworld/pom.xml" />
+        <option value="$PROJECT_DIR$/designpartterns/pom.xml" />
       </list>
     </option>
   </component>
