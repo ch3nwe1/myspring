@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/myactivemq/pom.xml" />
         <option value="$PROJECT_DIR$/mathworld/pom.xml" />
         <option value="$PROJECT_DIR$/designpartterns/pom.xml" />
+        <option value="$PROJECT_DIR$/myspringioc/pom.xml" />
+        <option value="$PROJECT_DIR$/myspringboot/pom.xml" />
       </list>
     </option>
   </component>

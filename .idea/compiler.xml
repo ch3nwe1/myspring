@@ -12,6 +12,8 @@
         <module name="mathworld" />
         <module name="myactivemq" />
         <module name="myactiviti" />
+        <module name="myspringboot" />
+        <module name="myspringioc" />
         <module name="mywebservice" />
       </profile>
     </annotationProcessing>
@@ -22,7 +24,15 @@
       <module name="mathworld" target="1.5" />
       <module name="myactivemq" target="1.5" />
       <module name="myactiviti" target="1.5" />
+      <module name="myspringboot" target="1.8" />
+      <module name="myspringioc" target="1.8" />
       <module name="mywebservice" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myspringboot" options="-parameters" />
+      <module name="myspringioc" options="-parameters" />
+    </option>
   </component>
 </project>

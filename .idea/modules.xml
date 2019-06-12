@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/mathworld/mathworld.iml" filepath="$PROJECT_DIR$/mathworld/mathworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/myactivemq/myactivemq.iml" filepath="$PROJECT_DIR$/myactivemq/myactivemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/myactiviti/myactiviti.iml" filepath="$PROJECT_DIR$/myactiviti/myactiviti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspringboot/myspringboot.iml" filepath="$PROJECT_DIR$/myspringboot/myspringboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspringioc/myspringioc.iml" filepath="$PROJECT_DIR$/myspringioc/myspringioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywebservice/mywebservice.iml" filepath="$PROJECT_DIR$/mywebservice/mywebservice.iml" />
     </modules>
   </component>
