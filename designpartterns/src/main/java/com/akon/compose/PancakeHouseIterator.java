@@ -1,8 +1,9 @@
 package com.akon.compose;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class PancakeHouseIterator implements Iterrator<MenuItem> {
+public class PancakeHouseIterator implements Iterator<MenuItem> {
 
     private ArrayList<MenuItem> menuItems;
     private int position;

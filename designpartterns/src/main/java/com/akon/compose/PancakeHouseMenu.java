@@ -2,7 +2,7 @@ package com.akon.compose;
 
 import java.util.ArrayList;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu{
 
     private ArrayList<MenuItem> menuItems;
 
@@ -32,7 +32,8 @@ public class PancakeHouseMenu {
 //    public ArrayList<MenuItem> getMenuItems() {
 //        return menuItems;
 //    }
-    public Iterrator createIterator(){
-        return new PancakeHouseIterator(menuItems);
+    @Override
+    public java.util.Iterator createIterator(){
+        return menuItems.iterator();
     }
 }
