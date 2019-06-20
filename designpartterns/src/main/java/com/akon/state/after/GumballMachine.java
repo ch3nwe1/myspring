@@ -6,6 +6,7 @@ public class GumballMachine {
     private State noQuarterState;
     private State hasQuarterState;
     private State soldState;
+    private State winnerState;
 
     private State state = soldState;
     private int count;
@@ -15,6 +16,7 @@ public class GumballMachine {
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
         soldState = new SoldState(this);
+        winnerState = new WinnerState(this);
         this.count = numberGumballs;
         if(count > 0){
             state = noQuarterState;
@@ -61,7 +63,19 @@ public class GumballMachine {
         return soldState;
     }
 
+    public State getWinnerState() {
+        return winnerState;
+    }
+
     public int getCount() {
         return count;
+    }
+
+    @Override
+    public String toString() {
+        return "GumballMachine{" +
+                "state=" + state +
+                ", count=" + count +
+                '}';
     }
 }

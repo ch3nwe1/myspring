@@ -1,4 +1,4 @@
-package com.akon.state;
+package com.akon.state.before;
 
 public class GumballMachineTestDriver {
 
