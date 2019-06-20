@@ -9,6 +9,7 @@
         <module name="algorithmic" />
         <module name="designpartterns" />
         <module name="hellojava" />
+        <module name="java8feather" />
         <module name="mathworld" />
         <module name="myactivemq" />
         <module name="myactiviti" />
@@ -18,15 +19,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algorithmic" target="1.5" />
-      <module name="designpartterns" target="1.5" />
-      <module name="hellojava" target="1.5" />
-      <module name="mathworld" target="1.5" />
-      <module name="myactivemq" target="1.5" />
-      <module name="myactiviti" target="1.5" />
-      <module name="myspringboot" target="1.8" />
-      <module name="myspringioc" target="1.8" />
-      <module name="mywebservice" target="1.5" />
+      <module name="algorithmic" target="8" />
+      <module name="designpartterns" target="8" />
+      <module name="hellojava" target="8" />
+      <module name="java8feather" target="8" />
+      <module name="mathworld" target="8" />
+      <module name="myactivemq" target="8" />
+      <module name="myactiviti" target="8" />
+      <module name="myspringboot" target="8" />
+      <module name="myspringioc" target="8" />
+      <module name="mywebservice" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

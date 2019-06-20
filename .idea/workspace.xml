@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530c6a35-2a82-4bd7-aa98-15c16a9887a2" name="Default Changelist" comment="">
+    <list default="true" id="530c6a35-2a82-4bd7-aa98-15c16a9887a2" name="Default Changelist" comment="状态模式">
+      <change afterPath="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/CheckPersonEligibleForSelectiveService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic/algorithmic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic/algorithmic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/designpartterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/designpartterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/DisplayElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/DisplayElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/simple/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpartterns/target/classes/com/akon/observer/weatherObservable/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8feather/java8feather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8feather/java8feather.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8feather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java8feather/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mathworld/target/test-classes/com/akon/matrix/MatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mathworld/target/test-classes/com/akon/matrix/MatrixTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myactiviti/target/classes/processes/one-task-process.bpmn20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myactiviti/target/test-classes/META-INF/myactiviti.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myactiviti/target/classes/com/akon/activiti/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/myactiviti/target/classes/com/akon/activiti/Application.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/algorithmic/target/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/designpartterns/target/" />
     <ignored path="$PROJECT_DIR$/myspringioc/target/" />
     <ignored path="$PROJECT_DIR$/myspringboot/target/" />
+    <ignored path="$PROJECT_DIR$/java8feather/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,104 +50,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspringboot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspringboot/src/main/java/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspringboot/src/main/java/com/akon/springboot/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/Turkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/WildTurkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/TurkeyAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/DuckTestDrive.java">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="344">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/MallardDuck.java">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/NoQuarterState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="598">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/HasQuarterState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachineTestDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldOutState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/WinnerState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,38 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/Light.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/RemoteLoader.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/Command.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/CeilingFanOffCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/CeilingFanOnCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/GarageDoorUpCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/GarageDoorDownCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/LightOffCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/StereoOffCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/StereoWithCDCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/command/simpleremote/NoCommand.java" />
-        <option value="$PROJECT_DIR$/designpartterns/README.md" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/Application.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/SpringBootTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/MySpringBootTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/service.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/daos.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/MySpringBootTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/GenericApplicationContextTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190529/ClientService.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190529/example01.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190529/example02.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190529/ExampleBean.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190529/example03.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190529/example04.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/day20190529/SpringBeanFactoryTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/day20190531/DependencyInjectTest.java" />
-        <option value="$PROJECT_DIR$/myspringioc/pom.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190531/example01.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/resources/day20190601/example01.xml" />
-        <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/ComplexObject.java" />
         <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/MyService.java" />
         <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/impl/MyServiceImpl.java" />
         <option value="$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/impl/AppConfig.java" />
@@ -213,6 +219,38 @@
         <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/Turkey.java" />
         <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/TurkeyAdapter.java" />
         <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/DuckTestDrive.java" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/Persion.java" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/Person.java" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/CheckPerson.java" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/PersionTest.java" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/PersionService.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/CheckPersonEligibleForSelectiveService.java" />
+        <option value="$PROJECT_DIR$/java8feather/pom.xml" />
+        <option value="$PROJECT_DIR$/java8feather/src/test/java/com/akon/lambda/PersionServiceTest.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/CaffeineBeverage.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/Coffee.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/Tea.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/MenuItem.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Iterrator.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/MenuTestDrive.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/DinerMenuIterator.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/PancakeHouseIterator.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/PancakeHouseMenu.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/DinerMenu.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Waitress.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Menu.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/GumballMachineTestDriver.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/GumballMachine.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/State.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/NoQuarterState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/NoQuarterState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldOutState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/WinnerState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/HasQuarterState.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachineTestDrive.java" />
+        <option value="$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachine.java" />
       </list>
     </option>
   </component>
@@ -226,6 +264,10 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java8feather" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="myspringboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -320,30 +362,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="akon" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="designpartterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="akon" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspring" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -351,7 +405,7 @@
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -360,7 +414,7 @@
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -370,54 +424,13 @@
             <path>
               <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspring" type="462c0819:PsiDirectoryNode" />
-              <item name="myspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="java8feather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="akon" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,11 +444,18 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.akon.lambda" />
       <recent name="com.akon.ioc.customevent" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.akon.lambda" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -463,7 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuckTestDrive">
+  <component name="RunManager" selected="Application.GumballMachineTestDrive">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akon.springboot.Application" />
       <module name="myspringboot" />
@@ -490,52 +510,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <module name="myspringboot" />
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akon.state.after.GumballMachineTestDrive" />
+      <module name="designpartterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akon.state.after.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectTest.javaBasedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspringioc" />
+    <configuration name="GumballMachineTestDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akon.state.before.GumballMachineTestDriver" />
+      <module name="designpartterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akon.ioc.day20190601.*" />
+          <option name="PATTERN" value="com.akon.state.before.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akon.ioc.day20190601" />
-      <option name="MAIN_CLASS_NAME" value="com.akon.ioc.day20190601.DependencyInjectTest" />
-      <option name="METHOD_NAME" value="javaBasedTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailServiceTest.testEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspringioc" />
+    <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akon.compose.MenuTestDrive" />
+      <module name="designpartterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akon.ioc.customevent.*" />
+          <option name="PATTERN" value="com.akon.compose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akon.ioc.customevent" />
-      <option name="MAIN_CLASS_NAME" value="com.akon.ioc.customevent.EmailServiceTest" />
-      <option name="METHOD_NAME" value="testEvent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GumballMachineTestDrive" />
+        <item itemvalue="Application.GumballMachineTestDriver" />
+        <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.DuckTestDrive" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="JUnit.EmailServiceTest.testEvent" />
-        <item itemvalue="JUnit.DependencyInjectTest.javaBasedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +640,70 @@
       <option name="project" value="LOCAL" />
       <updated>1559912801654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1560319182512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560319182512</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1560404622492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560404622492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="模板方法">
+      <created>1560589136083</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560589136083</updated>
+    </task>
+    <task id="LOCAL-00014" summary="迭代器与组合模式">
+      <created>1560589176383</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560589176383</updated>
+    </task>
+    <task id="LOCAL-00015" summary="迭代器与组合模式">
+      <created>1560604487084</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560604487084</updated>
+    </task>
+    <task id="LOCAL-00016" summary="迭代器与组合模式">
+      <created>1560604538125</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560604538125</updated>
+    </task>
+    <task id="LOCAL-00017" summary="状态模式">
+      <created>1560836915080</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560836915080</updated>
+    </task>
+    <task id="LOCAL-00018" summary="状态模式">
+      <created>1560949102216</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949102216</updated>
+    </task>
+    <task id="LOCAL-00019" summary="状态模式">
+      <created>1561032851502</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561032851502</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -657,21 +740,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.61875" visible="true" weight="0.23190348" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.61875" visible="true" weight="0.25536194" />
       <window_info id="Learn" order="3" weight="0.3297587" />
       <window_info id="Structure" order="4" sideWeight="0.38125" side_tool="true" weight="0.27010724" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.33798882" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33798882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3044693" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.24301676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" visible="true" weight="0.24301676" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -685,18 +769,18 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.61875" weight="0.27010724" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.61875" visible="true" weight="0.25536194" />
       <window_info id="Learn" order="3" weight="0.3297587" />
       <window_info id="Structure" order="4" sideWeight="0.38125" side_tool="true" weight="0.27010724" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.23044693" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33798882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3044693" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" visible="true" weight="0.24301676" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -717,9 +801,12 @@
     <MESSAGE value="观察者设计模式" />
     <MESSAGE value="装饰者设计模式" />
     <MESSAGE value="命令行模式" />
-    <MESSAGE value="init" />
     <MESSAGE value="spring自定义监听事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring自定义监听事件" />
+    <MESSAGE value="init" />
+    <MESSAGE value="模板方法" />
+    <MESSAGE value="迭代器与组合模式" />
+    <MESSAGE value="状态模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="状态模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -740,296 +827,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/day20190531.java" />
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/GenericApplicationContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/resources/day20190529/example04.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/day20190531/DependencyInjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/org/apache/commons/dbcp/BasicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/resources/day20190531/example01.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1895">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2902">
-          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/resources/day20190601/example01.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/ComplexObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-772">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/resources/day20190601/example02.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/day20190601/DependencyInjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/impl/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/day20190601/impl/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/ApplicationEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/resources/customEvent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/customevent/BlackListNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/test/java/com/akon/ioc/customevent/EmailServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/customevent/BlackListEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspringioc/src/main/java/com/akon/ioc/customevent/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="296" column="26" lean-forward="true" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1083,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myspringboot/src/main/java/com/akon/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="184">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1093,15 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/MallardDuck.java">
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1112,35 +904,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/WildTurkey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="161">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/TurkeyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="253">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1148,9 +941,432 @@
     <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/adapter/DuckTestDrive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hellojava/src/main/java/com/spring/mvc/MyWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/temporal/TemporalUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2519">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/temporal/Temporal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="151" column="32" lean-forward="true" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8feather/src/test/java/com/akon/lambda/PersionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8feather/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/CheckPersonEligibleForSelectiveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/CheckPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/Template.java" />
+    <entry file="file://$PROJECT_DIR$/java8feather/src/main/java/com/akon/lambda/PersionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/Tea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/template/CaffeineBeverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="839" column="25" lean-forward="true" selection-start-line="839" selection-start-column="25" selection-end-line="839" selection-end-column="25" />
+          <folding>
+            <element signature="e#31007#31008#0" expanded="true" />
+            <element signature="e#31039#31040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-587">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/DinerMenuIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/PancakeHouseMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Waitress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/PancakeHouseIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/MenuTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/DinerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/compose/Iterrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/before/GumballMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/before/GumballMachineTestDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/NoQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/WinnerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/HasQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachineTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpartterns/src/main/java/com/akon/state/after/GumballMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithmic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

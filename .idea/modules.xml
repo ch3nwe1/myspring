@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/designpartterns/designpartterns.iml" filepath="$PROJECT_DIR$/designpartterns/designpartterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellojava/hellojava.iml" filepath="$PROJECT_DIR$/hellojava/hellojava.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld.iml" filepath="$PROJECT_DIR$/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8feather/java8feather.iml" filepath="$PROJECT_DIR$/java8feather/java8feather.iml" />
       <module fileurl="file://$PROJECT_DIR$/mathworld/mathworld.iml" filepath="$PROJECT_DIR$/mathworld/mathworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/myactivemq/myactivemq.iml" filepath="$PROJECT_DIR$/myactivemq/myactivemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/myactiviti/myactiviti.iml" filepath="$PROJECT_DIR$/myactiviti/myactiviti.iml" />

@@ -71,6 +71,10 @@ public class GumballMachine {
         return count;
     }
 
+    public State getState() {
+        return state;
+    }
+
     @Override
     public String toString() {
         return "GumballMachine{" +
